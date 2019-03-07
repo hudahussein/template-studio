@@ -26,11 +26,10 @@ body {
     width: 1170px; } }
 
 .table {
-  display: table;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 100%; }
-
-.table-row {
-  display: table-row; }
 
 .text-center {
   text-align: center; }
