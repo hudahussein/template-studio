@@ -1,0 +1,89 @@
+*{
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -o-box-sizing:border-box;
+    box-sizing: border-box;
+}	
+
+body{
+    padding: 0;
+    margin: 0;
+    height:auto;
+}
+.container{
+    margin: auto;
+    position: relative;
+    
+    @media #{$maxSmall} {
+       padding: 0 25px !important; 
+    }
+    
+    @media #{$minSmall} {
+		width: 750px;
+	}
+	@media #{$medWidth} {
+		width: 970px;
+	}
+	@media #{$maxWidth} {
+		width: 1170px;
+	}
+}
+.table{
+	display: table;
+	height: 100%;
+}
+.table-row{
+	display: table-row;
+}
+.text-center{
+	text-align: center;
+}
+.upper{
+	text-transform: uppercase;
+}
+.main-color{
+	color: $mainColor;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+main-background{
+	background-color: $mainColor;
+}
+.heading{
+    font-weight: 500;
+    font-size: 3em;
+    margin-bottom: 0;
+}
+.hidden{
+    display: none;
+}
+.active{
+    display: block;
+}
+.over-lay{
+		background-color: rgba(0, 0, 0, .7);
+		width: 100%;
+	    height: 100%;
+}
+.main{
+		line-height: 2;
+		margin: 10px 0 40px;
+        font-size: 1.2em;
+        color: $greyColor;
+	}
+
+::-webkit-input-placeholder{
+	font-size: 15px;
+	color: $lightColor;
+}
+:-moz-input-placeholder{
+	font-size: 15px;
+	color: $lightColor;
+}
+:-ms-input-placeholder{
+	font-size: 15px;
+	color: $lightColor;
+}
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder{
+            color: $greyColor;
+        }
