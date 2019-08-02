@@ -107,7 +107,7 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
   width: 100%; }
 @media (max-width: 767px) {
   .header .navbar {
-    font-size: 1.3em;
+    font-size: 1.2em;
     padding: 20px 20px; } }
 @media (min-width: 768px) {
   .header .navbar {
@@ -196,7 +196,7 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
 @media (max-width: 767px) {
   .header .intro .buttons button {
     font-size: .8em;
-    width: 25%;
+    width: 35%;
     margin: 20px 8px; } }
 @media (min-width: 768px) {
   .header .intro .buttons button {
